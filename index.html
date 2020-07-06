@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
+
     <title>Портфолио Junior верстальщика</title>
   </head>
 
   <body>
     <header class="page-header">
-        <div class="container";>
-      e-mail - rysigr001@gmail.com ~ Telegram - @zozozor
+        <div class="container">
+      <a class="header-email" href="mailto:rysigr001@gmail.com">rysigr001@gmail.com</a>
+      <a class="header-phone" href="tel:+79889977892"> +7(988)-997-78-92 </a>
         </div>
     </header>
 
@@ -24,6 +26,9 @@
     <section class="intro">
         <div class="container";>
       <h2 class="subheading">Давайте познакомимся</h2>
+      <figure class="user-image">
+          <img src="files/user.jpeg" width="928" alt="Фотография Игоря">
+      </figure>
       <h3>Я: позитивный,целеустремленный и уверенный в себе человек</h3>
       <p>Не так давно решил заняться программированием, в том числе созданием динмаичных web-сайтов.
          На данный момент занимаюсь самоубучением и могу сказать, что уже скопил достаточный багаж
@@ -32,15 +37,30 @@
       <h3>Направление: Проектирование и разработка динмических web-сайтов</h3>
       <p>Могу сверстать простенький сайт на HTML, подключить к нему готовые стили из CSS, а так же сделать
          на JS кнопку смена фона старницы "черны/белый". Пока, что все xD</p>
-        </div>
+
+          <div class="skills">
+          <h3>Мои навыки</h3>
+            <dl class="skills-list">
+              <dt class="skill-html">HTML</dt>
+              <dd class="level"><div style="width: 60%;">60%</div></dd>
+              <dt class="skill-css">CSS</dt>
+              <dd class="level"><div style="width: 40%;">40%</div></dd>
+            </dl>
+          </div>
+
+          </div>
     </section>
 
     <section class="portfolio">
          <div class="container";>
       <h2 class="subheading">Мои работы</h2>
 
+      <figure class="project-image">
+          <img src="files/project.jpg" width="928" height="536" alt="Cайт инструктора Кекса">
+      </figure>
       <h3>Сайт инструктора Кекса</h3>
       <p>Небольшой лендинг о школе для начинающих.</p>
+      <a class="button" href="source/project/index.html">Открыть страницу</a>
 
       <h3>Блог начинающего верстальщика</h3>
       <p>Статический блог про обучение HTML и CSS.</p>
@@ -48,7 +68,10 @@
     </section>
 
     <footer class="page-footer">
-      e-mail - rysigr001@gmail.com ~ Telegram - @zozozor
+        <div class="container">
+            <a class="footer-email"
+        href="mailto:rysigr001@gmail.com">rysigr001@gmail.com</a>
+            <a class="footer-phone" href="tel:+79889977892"> +7(988)-997-78-92 </a>
     </footer>
   </body>
 </html>
